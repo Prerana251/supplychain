@@ -1,4 +1,4 @@
---## Supply Chain Performance & Operational Efficiency Analysis
+## Supply Chain Performance & Operational Efficiency Analysis
   An end-to-end data analytics project focused on evaluating supply chain
 performance, identifying logistics bottlenecks, improving inventory
 management, and understanding the relationship between delivery speed,
@@ -6,7 +6,7 @@ cost, and customer satisfaction.
 
 The project uses Python, SQL, and Power BI to transform supply chain
 data into business insights and operational recommendations.
-Project Overview
+## Project Overview
 The analysis focuses on warehouse-level supply chain performance across
 locations, suppliers, and product categories. It examines inventory
 availability, stockout risk, warehouse capacity, logistics costs,
@@ -14,7 +14,7 @@ delivery timelines, supplier quality, profitability, and customer
 ratings.
 
 The final dataset contains 500 records and 27 columns.
-Business Problems Addressed
+## Business Problems Addressed
 - Logistics bottlenecks: Identify locations where longer delivery
   and order-cycle times are associated with lower customer ratings.
 - Inventory gaps: Highlight warehouses with low stock relative to
@@ -28,7 +28,7 @@ Business Problems Addressed
 - Customer experience: Examine how shipping time relates to
   customer ratings.
   
-##Tools & Technologies
+## Tools & Technologies
   Tool                                Use
   Python (Pandas, NumPy)              Data cleaning, preprocessing, and
 feature engineering
@@ -43,7 +43,7 @@ DAX and Power Query                 Dashboard calculations and data
 transformation
 Project Workflow
 
-#Phase 1: Data Preparation
+# Phase 1: Data Preparation
 The project documentation describes preparing and cleaning the supply
 chain data before analysis, handling missing values, checking
 consistency, and engineering analytical fields.
@@ -56,7 +56,7 @@ Key engineered fields include:
 - Cost_Efficiency_Ratio
 - Inventory_Turnover_Ratio
 
-#Phase 2: SQL Analysis
+# Phase 2: SQL Analysis
 The SQL script contains business-focused queries covering:
 1. Loss and cost efficiency: Compare average net profit, total
    logistics cost, and cost-efficiency ratio by location.
@@ -75,7 +75,7 @@ The SQL script contains business-focused queries covering:
 8. Delivery speed analysis: Compare average net profit and customer
    ratings across fast, medium, and slow shipping groups.
 
-#Phase 3: Power BI Dashboard
+# Phase 3: Power BI Dashboard
 The project documentation describes an interactive dashboard with
 executive and operational views:
 - Executive insights: Net profit, average customer rating, and
@@ -85,7 +85,7 @@ executive and operational views:
 - Action plan: Recommended actions such as Replenish,
   Transfer, or No Action, based on the analysis.
 
-#Key Insights
+# Key Insights
 The following findings are stated in the project's existing
 documentation:
 - The "3.5 Day" rule: Customer ratings are reported to decline
@@ -99,7 +99,7 @@ documentation:
 These are project-reported findings. Recalculate them from the supplied
 dataset if you change the data, filters, or calculation logic.
 
-#Business Recommendations
+# Business Recommendations
 - Review routes and delivery methods where faster shipping is
   associated with higher costs or lower profitability.
 - Prioritize replenishment or stock transfers for warehouses with low
