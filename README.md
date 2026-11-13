@@ -1,5 +1,5 @@
-Supply Chain Performance & Operational Efficiency Analysis
-An end-to-end data analytics project focused on evaluating supply chain
+--## Supply Chain Performance & Operational Efficiency Analysis
+  An end-to-end data analytics project focused on evaluating supply chain
 performance, identifying logistics bottlenecks, improving inventory
 management, and understanding the relationship between delivery speed,
 cost, and customer satisfaction.
@@ -27,7 +27,8 @@ Business Problems Addressed
   damaged-goods counts.
 - Customer experience: Examine how shipping time relates to
   customer ratings.
-Tools & Technologies
+  
+##Tools & Technologies
   Tool                                Use
   Python (Pandas, NumPy)              Data cleaning, preprocessing, and
 feature engineering
@@ -41,7 +42,8 @@ reporting, and visual analysis
 DAX and Power Query                 Dashboard calculations and data
 transformation
 Project Workflow
-Phase 1: Data Preparation
+
+#Phase 1: Data Preparation
 The project documentation describes preparing and cleaning the supply
 chain data before analysis, handling missing values, checking
 consistency, and engineering analytical fields.
@@ -53,7 +55,8 @@ Key engineered fields include:
 - Net_Profit
 - Cost_Efficiency_Ratio
 - Inventory_Turnover_Ratio
-Phase 2: SQL Analysis
+
+#Phase 2: SQL Analysis
 The SQL script contains business-focused queries covering:
 1. Loss and cost efficiency: Compare average net profit, total
    logistics cost, and cost-efficiency ratio by location.
@@ -71,7 +74,8 @@ The SQL script contains business-focused queries covering:
    ratings below 3.0 and average shipping time above 4 days.
 8. Delivery speed analysis: Compare average net profit and customer
    ratings across fast, medium, and slow shipping groups.
-Phase 3: Power BI Dashboard
+
+#Phase 3: Power BI Dashboard
 The project documentation describes an interactive dashboard with
 executive and operational views:
 - Executive insights: Net profit, average customer rating, and
@@ -80,7 +84,8 @@ executive and operational views:
   shipping-impact analysis.
 - Action plan: Recommended actions such as Replenish,
   Transfer, or No Action, based on the analysis.
-Key Insights
+
+#Key Insights
 The following findings are stated in the project's existing
 documentation:
 - The "3.5 Day" rule: Customer ratings are reported to decline
@@ -93,7 +98,8 @@ documentation:
   need to review route and delivery costs.
 These are project-reported findings. Recalculate them from the supplied
 dataset if you change the data, filters, or calculation logic.
-Business Recommendations
+
+#Business Recommendations
 - Review routes and delivery methods where faster shipping is
   associated with higher costs or lower profitability.
 - Prioritize replenishment or stock transfers for warehouses with low
