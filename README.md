@@ -1,5 +1,5 @@
 ## Supply Chain Performance & Operational Efficiency Analysis
-  An end-to-end data analytics project focused on evaluating supply chain
+  An end-to-end  analytics project focused on evaluating supply chain
 performance, identifying logistics bottlenecks, improving inventory
 management, and understanding the relationship between delivery speed,
 cost, and customer satisfaction.
